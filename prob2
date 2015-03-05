@@ -1,0 +1,9 @@
+from math import *
+T=float(input("Enter the time of the orbit in seconds: "))
+h=21613.59*(T**(0.666666667))
+j=h-(6.37*10**6)
+if j<0:
+    print'The height of the satellite above Earth is 0 meters'
+else:
+    print'The height of the satellite above Earth is',j,'meters'
+    
