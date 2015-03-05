@@ -1,0 +1,2 @@
+x=int(input("Enter a number to be converted in a binary number: "))
+print'The binary number for',x,'is',bin(x)
